@@ -33,6 +33,7 @@ align-items: flex-start;
 }
 .header h1{
 text-align: start;
+color: rgb(224, 26, 26);
 }
 .header nav ul li{
 text-align: start;

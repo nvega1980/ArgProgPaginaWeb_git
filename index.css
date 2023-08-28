@@ -1,0 +1,76 @@
+body{
+margin: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+main section h1{
+color: brown;
+}
+main section p{
+color: rgb(17, 33, 253);
+font-size: 30px;
+}
+main section p:hover{
+color: rgb(9, 255, 0);
+transition: 1.5s;
+}
+.main1 h1{
+color: rgb(229, 255, 0);
+font-size: 45px;
+}
+.header{
+width: 100%;
+height: 150px;
+background-color: rgb(161, 206, 206);
+width: auto;
+border-style: solid;
+border-color: red;
+border-width: 15px;
+transition: all;
+flex-direction: row;
+align-items: flex-start;
+}
+.header h1{
+text-align: start;
+}
+.header nav ul li{
+text-align: start;
+}
+.main{
+    background-color: chocolate;
+    width: 75%;
+    height: 800px;
+}
+aside{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+background-color: aqua;
+width: 25%;
+height: 800px;
+}
+.footer{
+background-color: rgb(205, 255, 88);
+width: 100%;
+height: 200px;
+align-items: end;
+
+}
+.header:hover{
+    background-color: burlywood;
+    transition: 1.5s;
+    margin: 10px;
+    border-radius: 25px;
+}
+.conteiner{
+    display: flex;
+    height: 100%;
+}
+.asideh3{
+    flex: 1;
+    }
+.asideul{
+    flex: 2;
+    }
